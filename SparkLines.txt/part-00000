@@ -1,0 +1,13 @@
+# Apache Spark
+Spark is a fast and general cluster computing system for Big Data. It provides
+rich set of higher-level tools including Spark SQL for SQL and DataFrames,
+and Spark Streaming for stream processing.
+You can find the latest Spark documentation, including a programming
+## Building Spark
+Spark is built using [Apache Maven](http://maven.apache.org/).
+To build Spark and its example programs, run:
+You can build Spark using more than one thread by using the -T option with Maven, see ["Parallel builds in Maven 3"](https://cwiki.apache.org/confluence/display/MAVEN/Parallel+builds+in+Maven+3).
+["Building Spark"](http://spark.apache.org/docs/latest/building-spark.html).
+For general development tips, including info on developing Spark using an IDE, see ["Useful Developer Tools"](http://spark.apache.org/developer-tools.html).
+The easiest way to start using Spark is through the Scala shell:
+Spark also comes with several sample programs in the `examples` directory.

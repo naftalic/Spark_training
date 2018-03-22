@@ -1,0 +1,7 @@
+    ./bin/run-example SparkPi
+    MASTER=spark://host:7077 ./bin/run-example SparkPi
+Testing first requires [building Spark](#building-spark). Once Spark is built, tests
+Spark uses the Hadoop core library to talk to HDFS and other Hadoop-supported
+Hadoop, you must build Spark against the same version that your cluster runs.
+in the online documentation for an overview on how to configure Spark.
+Please review the [Contribution to Spark guide](http://spark.apache.org/contributing.html)
